@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <h1>Shopping</h1>
+    <form>
+        <section>
+            <label for="keywords">Keywords<span class="red-text">*</span>:</label>
+            <input id="keywords" type="text" name="keywords" required>
+        </section>
+        <section>
+            <label for="keywords">Price Range:</label>
+            <span>from</span>
+            <input id="keywords" type="text" name="keywords">
+            <span>to</span>
+            <input id="keywords" type="text" name="keywords">
+        </section>
+        <section>
+            <label for="condition">Condition:</label>
+            <input type="checkbox" name="condition" id="New" value="New">
+            <label for="condition">New</label>
+            <input type="checkbox" name="condition" id="Used" value="Used">
+            <label for="condition">Used</label>
+            <input type="checkbox" name="condition" id="Very Good" value="Very Good">
+            <label for="condition">Very Good</label>
+            <input type="checkbox" name="condition" id="Good" value="Good">
+            <label for="condition">Good</label>
+            <input type="checkbox" name="condition" id="Acceptable" value="Acceptable">
+            <label for="condition">Acceptable</label>
+        </section>
+        <section>
+            <label for="seller">Seller:</label>
+            <input type="checkbox" name="seller" id="return accepted" value="return accepted">
+            <label for="seller">Return Accepted</label>
+        </section>
+        <section>
+            <label for="shipping">Shipping:</label>
+            <input type="checkbox" name="shipping" id="free" value="free">
+            <label for="shipping">Free</label>
+            <input type="checkbox" name="shipping" id="expedited" value="expedited">
+            <label for="shipping">Expedited</label>
+        </section>
+        <section>
+            <label for="sort">Sort by</label>
+            <select name="sort" id="sort">
+              <option value="best match">Best Match</option>
+            </select>
+        </section>
+        <section class="submission">
+            <input type="button" value="clear">
+            <input type="submit" value="Search">
+          </section>
+    </form>
+</body>
+</html>

@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+#title {
+    color: rgb(23, 56, 185);
+    margin-left: 1.4cm;
+    margin-top: 0.7cm;
+    margin-bottom: 0.4cm;
+    font-size:28px; 
+    font-family:'Garamond';
+  }
+
+  #divider{
+    height:1px;
+    width: 882px;
+    background-color: rgb(140, 140, 140);
+    border: none;
+  }
+
+  .menu{
+    margin-top: 0.45cm;
+    margin-left: 1.4cm;
+    margin-bottom: 0.8cm;
+    font-size:9px; 
+    font-family:'Arial';
+    color: rgb(69, 69, 69);
+  }
+
+  .menu_item{
+    padding-right: 12px;
+  }
+
+  #first-nav{
+    color: rgb(23, 56, 185);
+  }
+  
+  .banner{
+    background-image: url('./images/Cutlery.png');
+    width: 827px;
+    height: 440px;
+    background-size: 827px 827px;
+    background-position: 0px -45px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-left: 50px;
+  }
+
+  .banner_title{
+    color: rgb(23, 56, 185);
+    font-family: 'Georgia';
+    margin-left: 40px;
+    padding-top: 40px;
+    font-size:40px; 
+  }
+
+  .banner_title_2{
+    color: rgb(23, 56, 185);
+    font-family: 'Georgia';
+    margin-left: 40px;
+    padding-top: 15px;
+    font-size:40px; 
+  }
+
+  button{
+    margin-left: 40px;
+    margin-top: 58px;
+    background-color: white;
+    color: rgb(24, 24, 24);
+    padding: 12px 18px;
+    font-size: 16px;
+    border: none;
+    font-size:12px; 
+  }
+
+  .slogan{
+    color: rgb(23, 56, 185);
+    font-family: 'Georgia';
+    margin-top: 45px;
+    margin-left: 290px;
+    margin-bottom: 34px;
+    font-size:16px; 
+    width: 900px;
+    
+  }
+
+  .contents{
+    margin-left: 1.4cm;
+    width: 900px;
+    
+  }
+
+  .content{
+    display: inline-block;
+    text-align: center;
+    
+  }
+
+  .content p{
+    color: rgb(23, 56, 185);
+    font-family: 'Georgia';
+    font-size:16px; 
+    font-weight: bolder;
+    
+  }
+
+  .image_name1{
+    padding-top: 40px;
+    padding-bottom: 70px;
+  }
+
+  .image_name2{
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .content img{
+    
+    width: 375px;
+    height: 323px;
+    
+  }
+
+  .col_2{
+    margin-left: 0.6cm;
+  }
